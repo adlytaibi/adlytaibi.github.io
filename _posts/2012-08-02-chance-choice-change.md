@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chance, Choice and Change"
+title:  Chance, Choice and Change
 date:   2012-08-02 12:34:56 -0400
 categories: [thought, personal]
 tags: [reflection]
