@@ -4,6 +4,9 @@ title: Adly Taibi
 tagline: website with GitHub Pages
 description: website with GitHub Pages
 ---
+{% include JB/setup %}
 
-- [Chance, Choice and Change](pages/2012-08-02-chance-choice-change.html)
+{% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 
