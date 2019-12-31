@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [Ansible role to configure NetApp StorageGRID](https://adlytaibi.github.io/sgws_config)
 - [HVAC Thermostat data graph](https://adlytaibi.github.io/hvac)
 - [Chart Plotter of nfs-iostat output](https://adlytaibi.github.io/nfsioplotter)
 - [SSL Termination for StorageGRID Data Management Console (DMC) with nginx](https://adlytaibi.github.io/sgws-dmc)
