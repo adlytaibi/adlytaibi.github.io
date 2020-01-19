@@ -1,0 +1,32 @@
+<div class="text-center">
+  <div class="chart">
+    <img class="chart" src="{{site.JB.BASE_PATH}}{{ ASSET_PATH }}/images/Onprem-Hybrid-Cloud-Chart.png" usemap="#chartmap">
+    <map name="chartmap">
+      <area shape="rect" coords="67,13,395,510" title="1" data-toggle="collapse" data-target="#area1" aria-expanded="true" aria-controls="area1">
+      <area shape="rect" coords="395,13,539,510" title="2" data-toggle="collapse" data-target="#area2" aria-expanded="true" aria-controls="area2">
+      <area shape="rect" coords="539,13,874,510" title="3" data-toggle="collapse" data-target="#area3" aria-expanded="true" aria-controls="area3">
+    </map>
+  </div> <!-- chart -->
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#area1" aria-expanded="false" aria-controls="area1">Cloud</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#area2" aria-expanded="false" aria-controls="area2">Hybrid</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#area3" aria-expanded="false" aria-controls="area3">On-premise</button>
+</div>
+<div id="ChartDescription">
+{% if page.areas %}
+  {% for area in page.areas %}
+    <div class="card">
+      <div id="area{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#ChartDescription">
+        <div class="card-body">
+          <h4>{{ area.title }}</h4>
+          <p>{{ area.description }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+<script type="text/javascript">
+  $('map').imageMapResize();
+</script>
+
