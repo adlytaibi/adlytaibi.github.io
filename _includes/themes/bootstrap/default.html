@@ -9,7 +9,7 @@
     <meta name="author" content="{{ site.author.name }}">
 
     <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
     <!-- Bootstrap styles -->
     <link href="{{site.JB.BASE_PATH}}{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,6 +36,8 @@
     <link href="{{ site.JB.BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ site.JB.BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+    <script src="{{site.JB.BASE_PATH}}{{ ASSET_PATH }}/bootstrap/js/jquery.min.js"></script>
+    <script src="{{site.JB.BASE_PATH}}{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -76,9 +78,5 @@
 
     {% include JB/analytics %}
 
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
