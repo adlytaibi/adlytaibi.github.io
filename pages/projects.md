@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [Docker Registry using StorageGRID S3 backend storage](https://adlytaibi.github.io/sg-registry)
 - [Ansible playbooks to configure NetApp ONTAP](https://adlytaibi.github.io/ontap_config)
 - [Ansible role to configure NetApp StorageGRID](https://adlytaibi.github.io/sgws_config)
 - [HVAC Thermostat data graph](https://adlytaibi.github.io/hvac)
