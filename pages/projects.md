@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [NetApp StorageGRID Ansible collection for grid and tenants configuration](https://adlytaibi.github.io/ansible_collections_sgws)
 - [Docker Registry using StorageGRID S3 backend storage](https://adlytaibi.github.io/sg-registry)
 - [Ansible playbooks to configure NetApp ONTAP](https://adlytaibi.github.io/ontap_config)
 - [Ansible role to configure NetApp StorageGRID](https://adlytaibi.github.io/sgws_config)
