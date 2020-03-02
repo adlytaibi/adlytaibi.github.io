@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [Network UPS Tools (NUT) configuration files and scripts to shutdown NetApp ONTAP](https://adlytaibi.github.io/nut)
 - [Run NetApp ConfigAdvisor inside a Docker container](https://adlytaibi.github.io/configadvisor)
 - [NetApp StorageGRID Ansible collection for grid and tenants configuration](https://adlytaibi.github.io/ansible_collections_sgws)
 - [Docker Registry using StorageGRID S3 backend storage](https://adlytaibi.github.io/sg-registry)
