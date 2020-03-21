@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [Building and destroying an S3 bucket with versioning](https://adlytaibi.github.io/removeversiondbucket)
 - [Network UPS Tools (NUT) configuration files and scripts to shutdown NetApp ONTAP](https://adlytaibi.github.io/nut)
 - [Run NetApp ConfigAdvisor inside a Docker container](https://adlytaibi.github.io/configadvisor)
 - [NetApp StorageGRID Ansible collection for grid and tenants configuration](https://adlytaibi.github.io/ansible_collections_sgws)
