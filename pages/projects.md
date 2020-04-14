@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [Multipart upload to S3](https://adlytaibi.github.io/mpup)
 - [Custom workflows for S3 bucket with versioning](https://adlytaibi.github.io/removeversiondbucket)
 - [Network UPS Tools (NUT) configuration files and scripts to shutdown NetApp ONTAP](https://adlytaibi.github.io/nut)
 - [Run NetApp ConfigAdvisor inside a Docker container](https://adlytaibi.github.io/configadvisor)
