@@ -87,3 +87,23 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
+.onoff {
+  background-image:url(../../images/on_off.png);
+  background-repeat:no-repeat;
+  background-size:16px;
+  width: 16px;
+  height: 16px;
+}
+
+.on {
+  background-position: 0 -16px;
+}
+
+.off {
+  background-position: 0 0;
+}
+
+.m {
+  background: rgba(255, 255, 255, 0.3);
+}
+
