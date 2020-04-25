@@ -104,6 +104,14 @@ h1, h2, h3, h4 {
 }
 
 .m {
-  background: rgba(255, 255, 255, 0.3);
+  padding-left: 0;
+  padding-right: 0;
 }
 
+.ml {
+  background: rgba(242, 243, 244, 0.3);
+}
+
+.mr {
+  background: rgba(213, 219, 219, 0.3);
+}
