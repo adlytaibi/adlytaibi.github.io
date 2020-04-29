@@ -27,4 +27,17 @@ $('document').ready(function() {
     setTimeout(function() { showTime() }, 1000);
   }
   showTime();
+  function setBG(t) {
+    if (t>7 && t<19) {
+      $('#clock').removeClass('night').addClass('day');
+    } else {
+      $('#clock').removeClass('day').addClass('night');
+    }
+  }
+  function backGround() {
+    var date = new Date();
+    setBG(date.getHours());
+    setTimeout(function() { setBG() }, 300000);
+  }
+  backGround();
 });

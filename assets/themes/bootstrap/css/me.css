@@ -87,31 +87,37 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
+.leds {
+  background-image: linear-gradient(#948e99, #2e1437);
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  left: 0; 
+  top: 0;
+}
+.day {
+  background-image: linear-gradient(#d7d2cc, #304352);
+}
+.night {
+  background-image: linear-gradient(#ba8b02, #181818);
+}
 .onoff {
-  background-image:url(../../images/on_off.png);
-  background-repeat:no-repeat;
-  background-size:16px;
-  width: 16px;
-  height: 16px;
+  stroke: #02342f;
+  stroke-width: 0.2;
 }
-
-.on {
-  background-position: 0 -16px;
-}
-
 .off {
-  background-position: 0 0;
+  fill: url(#gradoff);
 }
-
-.m {
-  padding-left: 0;
-  padding-right: 0;
+#gradoff {
+  --color-stop1: #071c8c;
+  --color-stop2: #06185c;
+  --color-stop3: #000932;
 }
-
-.ml {
-  background: rgba(242, 243, 244, 0.3);
+.on {
+  fill: url(#gradon);
 }
-
-.mr {
-  background: rgba(213, 219, 219, 0.3);
+#gradon {
+  --color-stop1: #00ffcc;
+  --color-stop2: #0c9026;
+  --color-stop3: #000932;
 }
