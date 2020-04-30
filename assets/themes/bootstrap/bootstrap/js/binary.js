@@ -37,7 +37,7 @@ $('document').ready(function() {
   function backGround() {
     var date = new Date();
     setBG(date.getHours());
-    setTimeout(function() { setBG() }, 300000);
+    setTimeout(function() { setBG(date.getHours()) }, 300000);
   }
   backGround();
 });
