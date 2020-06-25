@@ -5,6 +5,7 @@ description: Projects on GitHub
 group: navigation
 ---
 
+- [Moon calculations on a webpage or Android app](https://adlytaibi.github.io/moon)
 - [Game 2048 on a webpage or Android app](https://adlytaibi.github.io/2048)
 - [Multipart upload to S3](https://adlytaibi.github.io/mpup)
 - [Custom workflows for S3 bucket with versioning](https://adlytaibi.github.io/removeversiondbucket)
